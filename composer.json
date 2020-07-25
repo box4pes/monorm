@@ -1,0 +1,26 @@
+{
+    "name": "pes/monorm",
+    "type": "library",
+    "description": "Mono ORM.",
+    "license": "MIT",
+    "keywords": ["pes", "ORM"],
+    "authors": [
+        {
+            "name": "Petr Svoboda",
+            "email": "svoboda@grafia.cz"
+        }
+    ],
+    "version": "1.20.01",
+    "require": {
+        "pes/pes": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monorm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+}
